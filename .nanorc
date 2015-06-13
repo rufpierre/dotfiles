@@ -1,0 +1,29 @@
+syntax "texte" "\.txt$"
+color brightred "#.*"
+color cyan "".*"
+color brightcyan "!.*"
+
+# Contantly display the cursor position
+set const
+
+# Makes the top line available for editing
+set morespace
+
+# If the mouse is available, use it to change cursor position.
+set mouse
+
+# Don't add a new line to the end of files.
+set nonewlines
+
+# Smooth scrolling
+set smooth
+
+# No line wrapping, but display the line without scrolling.
+set nowrap
+#set softwrap
+
+# apparently experimental undo code.
+# set undo
+
+# Allow inserting files into their own buffers
+set multibuffer
