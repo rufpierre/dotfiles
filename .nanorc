@@ -27,3 +27,8 @@ set nowrap
 
 # Allow inserting files into their own buffers
 set multibuffer
+
+# rebind
+bind ^M mark main
+bind ^L copytext all
+
